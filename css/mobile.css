@@ -1,0 +1,17 @@
+*,::after,::before,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+
+.blue-div {
+    margin: 0 auto;
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    border: 4px solid yellow;
+    border-radius: 1rem;
+}
