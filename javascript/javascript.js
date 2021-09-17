@@ -1,3 +1,5 @@
+let body = document.querySelector('body');
+body.style.display = "none";
 function redirect() {
 	let deviceWidth = document.documentElement.clientWidth;
 	let mainArea = document.querySelector('.main-div');
@@ -22,4 +24,6 @@ function redirect() {
 	}
 }
 redirect();
+
+setTimeout(()=> { body.style.display = "block"},1000)
 // window.onresize = redirect();
