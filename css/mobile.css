@@ -11,7 +11,7 @@ body {
 
 .blue-div {
     overflow-y: auto;
-    margin: 0 auto;
+    margin: 0.2rem auto;
     background-color: blue;
     width: 99.9vw;
     height: 99vh;
