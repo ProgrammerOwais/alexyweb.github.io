@@ -8,6 +8,7 @@ body {
     overflow-y: hidden;
 }
 .red-div {
+    overflow-y: auto;
     margin: 0 auto;
     background-color: red;
     width: 99.9vw;

@@ -8,6 +8,7 @@ body {
     overflow-y: hidden;
 }
 .green-div {
+    overflow-y: auto;
     margin: 0 auto;
     background-color: green;
     width: 99.9vw;
