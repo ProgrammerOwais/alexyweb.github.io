@@ -1,12 +1,11 @@
-let body = document.querySelector('body');
-body.style.display = "none";
+
 function redirect() {
 	let deviceWidth = document.documentElement.clientWidth;
 	let mainArea = document.querySelector('.main-div');
 	let tabletLink = document.createElement('a');
 	tabletLink.href = "./tablet.html";
 	let mobileLink = document.createElement('a');
-	mobileLink.href = "./tablet.html";
+	mobileLink.href = "./mobile.html";
 	mainArea.appendChild(mobileLink);
 	mainArea.appendChild(tabletLink);
 	if ((deviceWidth > 320) && (deviceWidth < 720)) {
@@ -24,6 +23,4 @@ function redirect() {
 	}
 }
 redirect();
-
-setTimeout(()=> { body.style.display = "block"},1000)
 // window.onresize = redirect();
