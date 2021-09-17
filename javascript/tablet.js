@@ -23,3 +23,5 @@ function redirect() {
 	}
 }
 redirect();
+let body = document.querySelector('body');
+body.style.display = 'block';

@@ -6,6 +6,7 @@
 body {
     overflow-x: hidden;
     overflow-y: hidden;
+    display: none;
 }
 .red-div {
     overflow-y: auto;
