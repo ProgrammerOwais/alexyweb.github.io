@@ -9,6 +9,7 @@ body {
     display: none;
 }
 .red-div {
+    position: relative;
     overflow-y: auto;
     margin: 0 auto;
     background-color: red;
@@ -16,6 +17,18 @@ body {
     height: 99vh;
     border: 4px solid yellow;
     border-radius: 1rem;
+}
+
+.sub-div {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    background-color: yellow;
+    width: 50vw;
+    height: 50vh;
+    transform: translateX(-50%);
+    border: 1px solid black;
+
 }
 
 
