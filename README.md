@@ -1,5 +1,5 @@
  # Live site url:
- url : https://programmerowais.github.io/alexyweb.github.io/
+ url :https://programmerowais.github.io/redirectweblink.github.io/
 
  ## Redirect funcion 
 
